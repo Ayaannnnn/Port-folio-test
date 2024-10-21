@@ -17,3 +17,4 @@ jobs:
         gh pr close ${{ github.event.pull_request.number }} --repo education/codespaces-project-template-js --comment "$MESSAGE"
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
